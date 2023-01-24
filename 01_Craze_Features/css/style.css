@@ -1,0 +1,200 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans") ,url('../fonts/OpenSans-Extrabold.woff2') format('woff2'),
+    url('../fonts/OpenSans-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans"), url('../fonts/OpenSans-Light.woff2') format('woff2'),
+    url('../fonts/OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans") ,url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+    url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans"),url('../fonts/OpenSans-ExtraboldItalic.woff2') format('woff2'),
+    url('../fonts/OpenSans-ExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans") ,url('../fonts/OpenSans-Italic.woff2') format('woff2'),
+    url('../fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans"), url('../fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+    url('../fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans"), url('../fonts/OpenSansLight-Italic.woff2') format('woff2'),
+    url('../fonts/OpenSansLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans") , url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+    url('../fonts/OpenSans-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans") , url('../fonts/OpenSans-SemiboldItalic.woff2') format('woff2'),
+    url('../fonts/OpenSans-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local("OpenSans"), url('../fonts/OpenSans.woff2') format('woff2'),
+    url('../fonts/OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.container {
+    width: 930px;
+    position: relative;
+
+
+
+}
+
+.header-background {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.header-first-row img {
+    margin-bottom: 30px;
+}
+
+.header-first-row {
+    margin-right: 100px;
+}
+
+.header-first-row p {
+    color:white;
+    font-size: 24px;
+
+
+}
+
+.main-background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-first-row {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.main-first-row h1 {
+    font-size: 30px;
+    color:#232323;
+    text-transform: capitalize;
+}
+
+.main-first-row p {
+    font-size: 18px;
+    color: #838383;
+    margin-top: 20px;
+}
+
+.main-second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.main-second-row-box h2 {
+    font-size: 24px;
+    color:#232323;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.main-second-row-box p {
+    font-size: 16px;
+    color:#838383;
+}
+
+.main-second-row-box {
+    padding:30px;
+}
+
+.first-box {
+    border-right: 1px solid #838383;
+}
+
+.second-box {
+    border-right: 1px solid #838383;
+}
